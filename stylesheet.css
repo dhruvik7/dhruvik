@@ -55,3 +55,16 @@ and open the template in the editor.
 #lab_social_icon_footer #social-li:hover {
   color: #0077b5;
 }
+
+.project-box {
+  padding-top: 5px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: white;
+  min-height: 500px;
+}
+
+.project-box img {
+  width: 80%;
+}
