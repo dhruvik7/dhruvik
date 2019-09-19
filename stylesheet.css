@@ -68,3 +68,37 @@ and open the template in the editor.
 .project-box img {
   width: 80%;
 }
+
+#textbox {
+  padding-top: 50px;
+}
+
+#staticText {
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 100;
+  postion: fixed;
+  color: white;
+}
+
+#typeline {
+  font-size: 2rem;
+  line-height: 1.2;
+  color: white;
+}
+
+@-webkit-keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+em {
+  border-right: 0.1em solid white;
+  width: 20ch;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 0;
+  color: #3295dd;
+  -webkit-animation: typing 3s steps(21, end),
+    blink-caret 0.5s step-end infinite alternate;
+}
