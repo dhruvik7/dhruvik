@@ -56,6 +56,21 @@ and open the template in the editor.
   color: #0077b5;
 }
 
+.nav-outer {
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  background: inherit;
+}
+
+.hidden {
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  z-index: 5;
+  overflow: auto;
+}
+
 .project-box {
   padding-top: 5px;
   margin-top: 50px;
